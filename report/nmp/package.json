@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "consume",
+  "main": "yes",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ready"
+  },
+  "keywords": [
+    "run"
+  ],
+  "author": "swathiB",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^6.13.0"
+  }
+}
