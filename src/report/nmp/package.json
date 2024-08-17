@@ -4,7 +4,8 @@
   "description": "consume",
   "main": "yes",
   "scripts": {
-    "test": "run"
+    "test": "run",
+    "start": "nodemon main.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,11 @@
   "author": "swathiB",
   "license": "ISC",
   "dependencies": {
+    "cars": "^1.1.6",
     "express": "^4.19.2",
     "mongoose": "^6.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
